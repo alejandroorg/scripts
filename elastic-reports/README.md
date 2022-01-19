@@ -1,9 +1,19 @@
 ## Introducción
 Este script fue diseñado para extraer visualizaciones ya creadas en Kibana y plasmarlas en un correo electronico con formato HTML. Las visualizaciones soportadas hasta ahora son:
 
-- Tablas (Data Table)
-- Graficos de torta (Pie)
-- Graficos de barra o histogramas (Vertical Bar)
+- Tablas (Data Table) (Usando **Split rows** y como aggregation **Terms**):
+
+![2022-01-19_14-57](https://user-images.githubusercontent.com/83119522/150145034-d6bc0e31-ae18-4f7f-b71f-a92418dddda8.png)
+
+- Graficos de torta (Pie)(Usando **Split slices** y como aggregation **Terms**):
+
+
+![2022-01-19_14-56](https://user-images.githubusercontent.com/83119522/150144772-e99eb1ae-bfa3-4e9e-bdd3-6bea6064246f.png)
+
+- Graficos de barra o histogramas (Vertical Bar) (Usando **Split series** y como aggregation **Terms**):
+
+![2022-01-19_15-00](https://user-images.githubusercontent.com/83119522/150145461-624a6dcb-d5f4-40af-9046-d7cd01d224f3.png)
+
 
 ## Cómo utilizarlo?
 ### Instalar dependencias
